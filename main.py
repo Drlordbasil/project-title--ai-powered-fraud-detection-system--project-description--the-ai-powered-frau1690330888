@@ -4,7 +4,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 from sklearn.svm import OneClassSVM
-Optimized version of the Python script:
 
 
 def read_transaction_data(file_paths):
