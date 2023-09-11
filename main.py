@@ -1,9 +1,10 @@
-from sklearn.svm import OneClassSVM
-from sklearn.metrics import classification_report
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
+from sklearn.svm import OneClassSVM
+Optimized version of the Python script:
 
 
 def read_transaction_data(file_paths):
@@ -55,3 +56,5 @@ def predict_labels(classifier, incoming_transactions_scaled):
 
 
 def visualize_results(suspicious_transactions):
+    # Code for visualizing the results goes here
+    pass
